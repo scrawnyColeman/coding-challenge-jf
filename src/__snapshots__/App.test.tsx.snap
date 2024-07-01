@@ -1,0 +1,199 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App tests > should render the title 1`] = `
+<div>
+  <div
+    class="container mx-auto"
+  >
+    <div
+      class="relative w-full overflow-auto"
+    >
+      <table
+        class="w-full caption-bottom text-sm"
+      >
+        <caption
+          class="mt-4 text-sm text-muted-foreground"
+        >
+          A list of investors and their refund eligibility.
+        </caption>
+        <thead
+          class="[&_tr]:border-b"
+        >
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <th
+              class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0"
+            >
+              Name
+            </th>
+            <th
+              class="h-12 px-4 align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              Eligible?
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="[&_tr:last-child]:border-0"
+        >
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Emma Smith
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Benjamin Johnson
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Olivia Davis
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              Yes
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Ethan Anderson
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Sophia Wilson
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              Yes
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Liam Martinez
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Jonathan Giles
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Priya Sharp
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Raja Ortiz
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Livia Burns
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
+          >
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 font-medium"
+            >
+              Lacey Gates
+            </td>
+            <td
+              class="p-4 align-middle [&:has([role=checkbox])]:pr-0 text-right"
+            >
+              Yes
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
