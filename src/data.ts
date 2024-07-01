@@ -130,10 +130,3 @@ export const timezoneMap = {
   "Europe (GMT)": "Europe/London",
   "US (EST)": "America/New_York",
 };
-
-export const convertDateToUk = (date: Date, location: string) => {
-  const timeZone = timezoneMap[location as keyof typeof timezoneMap];
-  return fromZonedTime(date, timeZone, {
-    timeZone: "Europe/London",
-  });
-};
