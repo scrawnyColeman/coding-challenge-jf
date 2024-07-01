@@ -1,8 +1,10 @@
-type RecordType = {
+import { fromZonedTime } from "date-fns-tz";
+
+export type RecordType = {
   name: string;
   customerLocation: string;
   signUpDate: string;
-  requestSource: string;
+  requestSource: "phone" | "web app";
   investmentDate: string;
   investmentTime: string;
   refundRequestDate: string;
@@ -121,3 +123,17 @@ export const records: RecordType[] = [
     refundRequestTime: "13:12",
   },
 ];
+
+export const timezoneMap = {
+  "US (PST)": "America/Los_Angeles",
+  "Europe (CET)": "Europe/Paris",
+  "Europe (GMT)": "Europe/London",
+  "US (EST)": "America/New_York",
+};
+
+export const convertDateToUk = (date: Date, location: string) => {
+  const timeZone = timezoneMap[location as keyof typeof timezoneMap];
+  return fromZonedTime(date, timeZone, {
+    timeZone: "Europe/London",
+  });
+};
